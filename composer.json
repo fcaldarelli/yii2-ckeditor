@@ -1,0 +1,22 @@
+{
+    "name": "fabriziocaldarelli/yii2-ckeditor",
+    "description": "Yii2 CKEditor",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","ckeditor"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabrizio Caldarelli",
+            "email": "fabriziocaldarelli@negusweb.it"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "npm-asset/ckeditor": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "sfmobile\\ext\\ckeditor\\": ""
+        }
+    }
+}
