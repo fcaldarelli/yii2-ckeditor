@@ -22,7 +22,9 @@ class CKEditor extends YiiInputWidget
     /**
      * @var array widget plugin options.
      */
-    public $defaultPluginOptions = [];
+    public $defaultPluginOptions = [
+        'versionCheck' => false
+    ];
 
     /**
      * @var array widget plugin options.
